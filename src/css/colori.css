@@ -1,0 +1,10 @@
+body{
+    background-color: blue;
+}
+
+div{
+    /* background-color: aqua; colori in maniera standard tramite tipo*/
+    /* background-color: rgb(255,255,0); combinazioni di colori tramite combinazione di valori rgb*/
+    /* background-color: rgb(255, 255,0,0.5); combinazione di colori tramite combinazione rgb ma con aggiunta 4 elemento di opacità */
+    background-color: #ff0000ff; /*Combinazione di colori tramite hexadecimale dove gli ultimi due valori sono opacità*/
+}

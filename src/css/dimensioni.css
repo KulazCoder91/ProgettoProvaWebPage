@@ -1,0 +1,18 @@
+body{
+    background-color: red;
+    height: 800px;
+}
+
+div{
+    background-color: aqua;
+    color: black;
+    /* width: 300px; la dimensione della larghezza dei div può essere espressa in pixel*/
+    width: 50%; /*La larghezza può essere definita anche in % relativa rispetto alla dimensione totale dell'oggetto padre*/
+    height: 100%; /*occhio a mettere la dimensione in pixel fissa in altezza perchè c'è il rischio di fare overflow di test.
+    Raramente viene usata e fissata in pixel. Se uso nel div invece una % ignora la valorizzazione e prende solamente la dimensione massima 
+    rispetto al body a meno che questa non venga fissato in pixel (nel body)*/
+}
+
+div div{
+    background-color: yellow;
+}

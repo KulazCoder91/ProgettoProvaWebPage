@@ -1,0 +1,16 @@
+/*Struttura gerarchica di una regola css
+
+selettore{
+    proprietàCss1: valoreProprietàCss1;
+    proprietàCss2: valoreProprietàCss2;
+}
+    
+selettore2{
+    proprietàCss1: valoreProprietàCss1;
+    proprietàCss2: valoreProprietàCss2;
+}
+*/
+
+body{
+    background-color: red;
+}
