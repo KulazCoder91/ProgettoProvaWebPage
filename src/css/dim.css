@@ -1,0 +1,17 @@
+body{
+    background-color: red;
+}
+
+div{
+    background-color: aqua;
+    color: black;
+    /*max-width: 700px;*/ /*utilizzando questo parametro max-width differentemente da quanto spiegato prima do una dimensione
+    massima che questo div può ottenere e in caso in cui ridimensiono la pagina non creo i scroll bar bruttissimi ma il testo 
+    si ridimensiona alla dimensione della pagina*/
+
+    min-width: 300px; /*non si usano molto xk il rischio è che se andiamo sotto abbiamo la scroll bar*/
+}
+
+div + div{
+    background-color: blue;
+}
