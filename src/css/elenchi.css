@@ -1,0 +1,13 @@
+ul li{
+    /*list-style-type: square;tipologia dei bullet di selezione della nostra lista non ordinata*/
+    list-style-image: url("../../assets/img/icons8-ninja-turtle-32.png");
+    padding-left: 10px;
+}
+
+ul{
+    padding-left: 40px;
+}
+
+ol li{
+    list-style-type: lower-roman;
+}
