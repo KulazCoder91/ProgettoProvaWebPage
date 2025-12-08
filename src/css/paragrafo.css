@@ -1,0 +1,37 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin:0;
+}
+
+/* p{
+    text-indent: 20px; indenta di 20 px solo la prima riga del paragrafo
+    background-color: red;
+    margin:0;
+    border: 20px solid orange;
+    margin: 20px;
+    outline: 20px solid green;
+}  */
+
+div{
+    background-color: yellow;
+    /* padding: 30px; */
+}
+
+/* span{
+    color: red;
+} */
+
+
+/*Ora da qui sotto vediamo come possiamo trasformare un elemento inline che ha alcune limitazioni in un block oppure un inline-block*/
+
+span{
+    /* display: block;proprietà usata per dire ad un elemento inline che è un elemento di blocco. dunque posso usare le  
+    proprietà che utlizzerei con gli elementi di tipo blocco.*/
+    display: inline-block; /*per fare si che questi elementi li vedo affiancati*/ 
+    width: 300px;
+    background-color: aquamarine;
+    margin: 5px;
+}

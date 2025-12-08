@@ -1,0 +1,18 @@
+*{
+ box-sizing: border-box;  
+}
+
+body{
+    margin: 0;
+}
+
+div{
+    border: 5px solid black;
+    margin: 5px;
+}
+
+div:first-of-type{
+    /* display: none; questa proprietà mi cancella il primo div che io non voglio fare vedere*/
+    /* visibility: hidden; cancella il primo elemento ma rimane il blocco vuoto */
+    opacity: 0.4;
+}
