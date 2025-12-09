@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <title>Tag Vari</title>
+    <link rel="stylesheet" href="../css/tagVari.css">
+</head>
+<body>
+    <h2>Testo in bald</h2>
+    <div>
+        <p>Le <span>anatre</span> in estate migrano dall'africa in europa.</p> <!--Il tag strong cosi è sbagliato. Va usato per
+        del testo importante o per qualche comunicazione di urgenza come sotto urgente.-->
+        <p>Se la temperatura del reattore supera i 100 gradi <strong>spegnere le valvole</strong>.</p>
+        <p>Le <b>bottiglie di plastica </b>andrebbero eliminate</p> <!--Anche qui il tag b si usa per sottolineare qualcosa di impo.-->
+    </div>
+    <hr>
+    <h2>Tag i ed em</h2>
+    <div>
+        <p>
+            <em>Testo in corsivo</em> <!--Usato per enfatizzare qualcosa-->
+        </p>
+        <p>Psicopatici e sociopatici <em>non</em> son la stessa cosa</p>
+        <p><i>Ehi, come butta?</i></p> <!--Usato per del testo idiomatico ossia gergale-->
+        <p>Gli esseri umani sono <i>Homo sapiens</i>.</p> <!--Usato per le categorie-->
+        <p><i>il Throughput</i> è ......</p> <!--Usato per termini tecnici-->
+        <p>Nella didattica la massima <i lang="la">repetita iuvant</i> è sempre attuale</p> <!--Testo in un'altra lingua seguito da 
+        attributo lang-->
+        <p>mi chiedo <i>com è possibile che sono così stanco?</i></p> <!--Per pensieri personali-->
+        <!--Negli altri casi si usa il CSS per inserire il corsivo nel tuo testo.-->
+    </div>
+    <hr>
+    <h2>il tag u</h2>
+    <div>
+        <p>il tag u si usa per sottolineare qualcosa di scritto male tipo <u>lasgne</u></p>
+    </div>
+    <hr>
+    <h2>Il tag mark</h2>
+    <div>
+        <p>il <mark>chiniesoloso</mark> è una figura chiave nella riabilitazione.</p> <!---Per mettere in rilievo qualcosa-->
+    </div>
+    <hr>
+    <h2>Il tag cite</h2>
+    <div>
+        <p>La <cite>Divina commedia</cite> è di Dante.</p> <!--Si utilizza per titoli di opere d'arte-->
+    </div>
+
+    <hr>
+    <h2>Annidare i tag</h2>
+    <div>
+        <p>
+            <strong><i>Homo sapiens</i></strong>
+        </p>
+    </div>
+    <hr>
+    <h2 title="Intestazione per tag acronimi">Tag per gli acronimi</h2>
+    <div>
+        <p>
+            <abbr title="Organizzazione delle Nazioni Unite">ONU</abbr> <!--Title posso darlo a tutti i tag e quando lo dai se poi 
+            passi sopra con il muose appare un tooltip -->
+        </p>
+        <p>Il <abbr title="Signore"> Sig.</abbr> Pinco Pallino</p> <!--Per abbreviazioni-->
+        <p>34 <abbr title="centimetri"> cm</abbr> di lunghezza </p> <!--Per le unità di misura-->
+    </div>
+    <hr>
+    <h2>il Tag dfn</h2> <!--Questo tag si utilizza all'interno di un paragrafo o di una lista di definizione-->
+    <div>
+        <p>
+            Un <dfn><i lang="en">debugger</i></dfn>, in informatica è un <i lang="en">tool</i> per individuare gli errori.
+        </p>
+        <p>L&apos; <dfn><abbr title="Organizzazone delle Nazioni Unite">ONU</abbr></dfn> è un'organizzazione inter-governativa 
+        a livello mondiale</p>
+    </div>
+    <hr>
+    <h2>il Tag var</h2> <!--Per definire le varibili-->
+    <div>
+        <p><var>x </var> = <var>y </var>+ 2</p>
+    </div>
+
+    <hr>
+    <h2>Tag ins e del</h2>
+    <p>l'articolo costa <del>15&euro;</del datetime--2025-12-9T10:27><ins>10&euro;</ins></p> <!--Quando una cosa era prima un valore e adesso uno nuovo
+    (esempio sconti di prezzo) e può essere inserito il valore temporale del cambio ad esempio con attributo datetime-->
+
+    <hr>
+    <h2>il Tag pre</h2> <!--Per definire le varibili-->
+    <div>
+        <pre>Prima riga
+           Seconda riga
+           Terza riga
+        </pre>
+    </div>
+    <hr>
+<h2>Tag Samp</h2>
+<p>
+    <samp>18.17.1</samp>
+</p>
+<div>
+    <pre>
+        <samp> <!--Il tag HTML <samp> viene utilizzato per definire un testo che rappresenta un output di esempio (sample) da un programma o script informatico. -->
+            usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           [--config-env=<name>=<envvar>] <command> [<args>]
+
+These are common Git commands used in various situations:
+
+start a working area (see also: git help tutorial)
+   clone     Clone a repository into a new directory
+   init      Create an empty Git repository or reinitialize an existing one
+
+work on the current change (see also: git help everyday)
+   add       Add file contents to the index
+   mv        Move or rename a file, a directory, or a symlink
+   restore   Restore working tree files
+   rm        Remove files from the working tree and from the index
+
+examine the history and state (see also: git help revisions)
+   bisect    Use binary search to find the commit that introduced a bug
+   diff      Show changes between commits, commit and working tree, etc
+   grep      Print lines matching a pattern
+   log       Show commit logs
+   show      Show various types of objects
+   status    Show the working tree status
+
+grow, mark and tweak your common history
+   branch    List, create, or delete branches
+   commit    Record changes to the repository
+   merge     Join two or more development histories together
+   rebase    Reapply commits on top of another base tip
+   reset     Reset current HEAD to the specified state
+   switch    Switch branches
+   tag       Create, list, delete or verify a tag object signed with GPG
+
+collaborate (see also: git help workflows)
+   fetch     Download objects and refs from another repository
+   pull      Fetch from and integrate with another repository or a local branch
+   push      Update remote refs along with associated objects
+
+'git help -a' and 'git help -g' list available subcommands and some
+concept guides. See 'git help <command>' or 'git help <concept>'
+to read about a specific subcommand or concept.
+See 'git help git' for an overview of the system.
+        </samp>
+    </pre>
+</div>
+
+<hr>
+<h2>Tag kbd</h2> <!--Usato per scrivere dei comandi-->
+<p>
+    <!-- <kbd>CTRL</kbd>+<kbd>C</kbd> si usa per copiare del testo -->
+</p>
+<div>
+<pre><kbd>git --version</kbd>
+<samp>git version 2.45.1.windows.1</samp>
+</pre>
+</div>
+<div>
+    <pre>
+            <code>
+        span{
+    font-weight:bald;
+}
+
+mark{
+    background-color: red;
+}
+
+pre{
+    margin:0
+}
+
+/* kbd{
+    background-color: gray;
+    color: black;
+    border: black 1px solid;
+    padding: 3px;
+} */
+
+kbd{
+    color: rgb(255, 0, 0);
+}
+    </code>
+    </pre>
+    <small>Tutti i diritti sono riservati.</small>
+</div>
+
+<hr>
+<h2>Tag sub e sup</h2> <!--usati per fare apice e pedice-->
+<p>
+    la temperatura esterna è di 12 <sup>°C</sup>
+</p>
+<p>H<sub>2</sub>O</p>
+
+<hr>
+<h2>Tag sub e sup</h2> <!--usati per inserire degli indirizzi o informazioni di contatto (cell oppure mail)-->
+<p><address>Via Francesco Baracca 12</address></p>
+<p><address>lucadallevedove91@gmail.com</address></p>
+</body>
+<hr>
+<h2>Tag q</h2> <!--usati per inserire delle risposte in prima persona o citazioni in line approfondimenti-->
+<p>Nicolo rispose così: <q>Forza Milan sempre</q></p>
+
+<hr>
+<h2>Tag blockquote</h2> <!--usati per inserire delle citazioni-->
+<div>Discutendo con lui se ne uscì con <blockquote>non ti crucciar di loro. <cite>Divina commedia canto 10</cite></blockquote></div>
+</body>
+
+</html>

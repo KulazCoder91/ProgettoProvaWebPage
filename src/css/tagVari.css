@@ -1,0 +1,22 @@
+span{
+    font-weight:bald;
+}
+
+mark{
+    background-color: red;
+}
+
+pre{
+    margin:0
+}
+
+/* kbd{
+    background-color: gray;
+    color: black;
+    border: black 1px solid;
+    padding: 3px;
+} */
+
+kbd{
+    color: rgb(255, 0, 0);
+}
