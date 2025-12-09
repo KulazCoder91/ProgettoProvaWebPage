@@ -14,5 +14,5 @@ div{
 div:first-of-type{
     /* display: none; questa proprietà mi cancella il primo div che io non voglio fare vedere*/
     /* visibility: hidden; cancella il primo elemento ma rimane il blocco vuoto */
-    opacity: 0.4;
+    opacity: 0.4; /*se la metto a 0 l'elemento sparisce*/
 }

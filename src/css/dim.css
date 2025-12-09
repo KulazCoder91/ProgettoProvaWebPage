@@ -11,7 +11,3 @@ div{
 
     min-width: 300px; /*non si usano molto xk il rischio è che se andiamo sotto abbiamo la scroll bar*/
 }
-
-div + div{
-    background-color: blue;
-}
